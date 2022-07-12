@@ -1,7 +1,10 @@
+import Logo from '../Images/Logo.png';
+
 export default function Header(){
     return (
-        <div className="header">
-            <h1>Header</h1>
-        </div>
+        <header>
+            <img src={Logo} alt="troll face"></img>
+            <h3>Create Your Own Meme!</h3>
+        </header>
     )
 }
